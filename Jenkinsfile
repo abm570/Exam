@@ -2,7 +2,7 @@ pipeline {
     agent any
 
   environment {
-      IMAGE_NAME = 'amit570/react-image'
+      IMAGE_NAME = 'amit570/react-app'
       IMAGE_TAG = 'latest'
   }
 
