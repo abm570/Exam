@@ -4,20 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <center>
+      <h2>Example of React App with integration of Git/Github, Jenkins, Docker and Docker Swarm</h2><br/>
+      
+      <input type="text" placeholder="Enter some text!"/> <br/><br/>
+      <input type="submit" value="Submit" />
+      
+     </center>
     </div>
   );
 }
