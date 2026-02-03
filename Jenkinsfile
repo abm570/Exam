@@ -14,12 +14,6 @@ pipeline {
         }
      }
 
-    // stage('Running') {
-    //     steps{
-    //         sh 'npm start'
-    //   }
-    // }
-
     stage('Build docker image') {
         steps {
           sh 'docker build -t $IMAGE_NAME:$IMAGE_TAG .'
